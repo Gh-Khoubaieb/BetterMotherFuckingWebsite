@@ -21,11 +21,11 @@ psychedelicButton.onclick = function() {
     for(var i = 0; i < p.length; i++) {
 
          p[i].style.color = "blue";
-         p[i].style.fontFamily= "courier";
+         p[i].style.fontFamily = "courier";
     }
     for(var j = 0; j < titles.length; j++) {
 
-        titles[j].style.color = "yellow";
+        titles[j].style.color = "green";
         titles[j].style.fontFamily = "Comic Sans MS";
     }
 
