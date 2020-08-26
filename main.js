@@ -19,13 +19,15 @@ psychedelicButton.onclick = function() {
     body[0].style.backgroundColor = "magenta";
 
     for(var i = 0; i < p.length; i++) {
-
+         //Changer la couleur des polices des paragraphes en blue
          p[i].style.color = "blue";
+         //Changer la police des paragraphes en courier 
          p[i].style.fontFamily = "courier";
     }
     for(var j = 0; j < titles.length; j++) {
-
+        //Changer la couleur des polices de tous les headings en green
         titles[j].style.color = "green";
+        //Changer la police des headers en Comic Sans
         titles[j].style.fontFamily = "Comic Sans MS";
     }
 
