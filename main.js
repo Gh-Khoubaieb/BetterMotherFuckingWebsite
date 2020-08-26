@@ -2,7 +2,7 @@
 //récupération les  éléments du DOM 
 var titles = document.getElementsByClassName("titles");
 var psychedelicButton = document.getElementById("psychedelicButton");
-var paragraphs = document.getElementsByTagName("p");
+var p = document.getElementsByTagName("p");
 var body = document.getElementsByTagName("body");
 
 
@@ -18,15 +18,15 @@ psychedelicButton.onclick = function() {
 
     body[0].style.backgroundColor = "magenta";
 
-    for(var i = 0; i < paragraphs.length; i++) {
+    for(var i = 0; i < p.length; i++) {
 
-         paragraphs[i].style.color = "blue";
-         paragraphs[i].style.fontFamily= "Courier";
+         p[i].style.color = "blue";
+         p[i].style.fontFamily= "courier";
     }
-    for(var j = 0; j < heading.length; j++) {
+    for(var j = 0; j < titles.length; j++) {
 
-        titles[j].style.color = "green";
-        titles[j].style.fontFamily = "Comic Sans";
+        titles[j].style.color = "yellow";
+        titles[j].style.fontFamily = "Comic Sans MS";
     }
 
 }
