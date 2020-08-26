@@ -1,9 +1,11 @@
  
 //récupération les  éléments du DOM 
+var titles = document.getElementsByClassName("titles");
 var psychedelicButton = document.getElementById("psychedelicButton");
-var body = document.getElementsByTagName("body");
 var paragraphs = document.getElementsByTagName("p");
-var heading = document.getElementsByClassName("heading");
+var body = document.getElementsByTagName("body");
+
+
 
 //Affichage d'un message d'information dans une boîte de dialogue modale de type confirm
 if (window.confirm("Hey, vite consulter ce site xxxvidsxxx :)")) {
@@ -23,8 +25,8 @@ psychedelicButton.onclick = function() {
     }
     for(let j = 0; j < heading.length; j++) {
 
-        heading[j].style.color = "green";
-        heading[j].style.fontFamily = "Comic Sans MS";
+        titles[j].style.color = "green";
+        titles[j].style.fontFamily = "Comic Sans MS";
     }
 
 }
