@@ -13,20 +13,20 @@ if (window.confirm("Hey, vite consulter ce site xxxvidsxxx :)")) {
     window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 }
 
-//modifier les éléments (body,paragraphs,heading) après cliqué sur le button "Mode Psychédélique"
+//modifier les éléments (arriére plan,paragraphs,titres) après cliqué sur le button "Mode Psychédélique"
 psychedelicButton.onclick = function() {
 
     body[0].style.backgroundColor = "magenta";
 
-    for(let i = 0; i < paragraphs.length; i++) {
+    for(var i = 0; i < paragraphs.length; i++) {
 
          paragraphs[i].style.color = "blue";
-         paragraphs[i].style.fontFamily= "courier";
+         paragraphs[i].style.fontFamily= "Courier";
     }
-    for(let j = 0; j < heading.length; j++) {
+    for(var j = 0; j < heading.length; j++) {
 
         titles[j].style.color = "green";
-        titles[j].style.fontFamily = "Comic Sans MS";
+        titles[j].style.fontFamily = "Comic Sans";
     }
 
 }
